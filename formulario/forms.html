@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation form</title>
+</head>
+<body>
+    <form>
+    <h1>Travel Reservation form</h1>
+    <h3> *denotes mandotory</h3>
+    <label>Full name*:</label>
+    <br>
+    <input type="text" name="firtsName" placeholder="FirtsName LastName" required>
+    <br>
+    <label>Email address*:</label>
+    <br>
+    <input type="email" name="email-adress" placeholder="EMAIL_ADDRESS" required>
+    <br>
+    <label>Select tour Package*:</label>
+    <br>
+    <select name="package-tour"> 
+        <option value="goa">Goa</option>
+        <option value="andhra-pradesh">Andhra Pradesh</option>
+        <option value="haryana">Haryana</option>
+        <option value="assam">Assam</option>
+    </select>
+    <br>
+    <label>Arrival date*:</label>
+    <br>
+    <input type="date" name="m/d/y" required>
+    <br>
+    <label>Number of persons*:</label>
+    <br>
+    <input type="number" name="unknow_type" placeholder="UNKNOWN_TYPE" style="width: 150px;" min="1" max="9" required>
+    <br>
+    <label>What would you want to avail?*</label>
+    <br>
+    <label>Boarding</label><input type="checkbox" name="avail" value="boarding">
+    <br>
+    <label>Fooding</label><input type="checkbox" name="avail" value="fooding">
+    <br>
+    <label>Sight seeing</label><input type="checkbox" name="avail" value="sight-seeing">
+    <br>
+    <label>Discount Coupon code:</label>
+    <br>
+    <input type="text" name="unknow_type" placeholder="UNKNOWN_TYPE" pattern="[a-zA-Z]{6}" >
+    <br>
+    <label>Terms and conditions*</label>
+    <br>
+    <input type="radio" name="radio-conditions" required><label> I agree</label>
+    <input type="radio" name="radio-conditions" required><label> I disagree</label>
+    <br>
+    <input type="submit" value="Complete reservation"/>
+</form>
+</body>
+</html>
