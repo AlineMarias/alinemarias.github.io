@@ -4,11 +4,11 @@
 
 .linha-do-form,
 .linhas-do-buttons{
-    height: 45px;
+    height: 55px;
 }
 
 .colunas-do-form{
-    width: 250px;
+    width: 350px;
 }
 
 .text{
@@ -20,8 +20,8 @@
 .matricula-do-Aluno,
 .nome-do-Aluno,
 .email-do-Aluno{
-    height: 30px;
-    width: 75px;
+    height: 20px;
+    width: 85px;
     font-size: 14px;
     color: black;
 }
