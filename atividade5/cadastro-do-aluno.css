@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+}
+
+.linha-do-form,
+.linhas-do-buttons{
+    height: 45px;
+}
+
+.colunas-do-form{
+    width: 250px;
+}
+
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color:rgb(27, 1, 1);
+}
+
+.matricula-do-Aluno,
+.nome-do-Aluno,
+.email-do-Aluno{
+    height: 30px;
+    width: 75px;
+    font-size: 14px;
+    color: black;
+}
+
+.buttons{
+    border: 1px solid rgb(128, 81, 0);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    padding: 8px 16px;
+    font-size: 14px;
+}
