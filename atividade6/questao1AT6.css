@@ -1,0 +1,16 @@
+img{
+    margin:auto;
+    max-height: 60vh;
+    display: block;
+    max-width: 100%
+}
+html{
+    font-size: 11px;
+}
+body{
+    font-family: arial;
+    font-size: 1.4rem;
+    line-height: 1;
+    margin: 0;
+    color: #333;
+}
