@@ -1,0 +1,11 @@
+body {
+    margin: 0 ;
+    display: flex;
+    flex-direction: column ;
+    height: 5px;
+}
+img{
+height: 300px;
+border: 0 ;
+object-fit: contain;
+}
