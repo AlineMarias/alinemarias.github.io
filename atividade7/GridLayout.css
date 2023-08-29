@@ -2,12 +2,12 @@ body{
     font-size: large;
     width: 300%;
 }
-.hate{
+.one{
 text-align: center;
-width: 600px;
+width: 800px;
 line-height: 200px;
-border-radius: 30px;
-border: 2px solid #ccc;
+border-radius: 10px;
+border: 2px solid #df0b0b;
 box-shadow: (0px 0px 35px 0.5);
 background-color:antiquewhite;
 cursor:pointer;
@@ -18,74 +18,63 @@ b:hover{
     color: bisque;
 }
 
-div.hate1{
+div.two{
 text-align:center;
-height:200px;
-width:700px;
+height:300px;
+width:900px;
 right: 0;
 top: 0;
 position: absolute;
-border-radius: 20%;
-background-color: aquamarine;
+border: 3px solid #7b4dca;
+border-radius: 10px;
+background-color: rgb(193, 241, 225);
 cursor: pointer;
 }
 
-div.hate2{
-text-align: center;
-width: 500px;
-line-height: 100px;
-border-radius: 30px;
-right: 500px;
-position: absolute;
-border: 1px solid #c26a6a;
-box-shadow: (0px 0px 35px 0.5);
-background-color:rgba(113, 11, 172, 0.198);
-cursor:pointer;
+div.three{
+    text-align: center;
+    width: 500px;
+    line-height: 900px;
+    border-radius: 10px;
+    border: 2px solid #df3e3e;
+    box-shadow: (0px 0px 35px 0.5);
+    background-color:rgb(233, 135, 8);
+    cursor:pointer;
 }
-div.hate3{
-text-align: center;
-width: 250px;
-line-height: 250px;
-border-radius: 30px;
-right: 100px;
-border: 3px solid #71c26a;
-box-shadow: (0px 0px 35px 0.5);
-background-color:rgba(59, 1, 93, 0.198);
-cursor:pointer;
+div.four{
+    text-align:center;
+    height:200px;
+    width:700px;
+    right: 0;
+    bottom: 200px;
+    position: absolute;
+    border: 3px solid #7b4dca;
+    border-radius: 10px;
+    background-color: rgb(39, 219, 159);
+    cursor: pointer;
 }
-div.hate4{
+div.five{
 text-align: center;
 width: 300px;
-line-height: 400px;
-border-radius: 30px;
+line-height: 300px;
+border-radius: 10px;
+bottom: 0;
 right: 800px;
 position: absolute;
-border: 3px solid #340584;
+border: 3px solid #7b4dca;
 box-shadow: (0px 0px 35px 0.5);
 background-color:rgba(35, 172, 11, 0.198);
 cursor:pointer;
 }
-div.hate5{
+div.six{
     text-align:center;
     height:200px;
     width:700px;
     right: 0;
     bottom: 0;
     position: absolute;
-    border: 1px solid #c26a6a;
-    border-radius: 3% 0%;
-    background-color: rgb(111, 10, 101);
+    border: 2px solid #300505;
+    border-radius: 10px;
+    background-color: rgb(238, 88, 223);
     cursor: pointer;
-    }
-
-    div.hate6{
-    text-align:center;
-    background-color: green;
-    height: 200px;
-    width: 200px;
-    left: 0;
-    bottom: 0;
-    border: #340584;
-    position: absolute;
-    
-}
+ }
