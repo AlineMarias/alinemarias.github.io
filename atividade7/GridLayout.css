@@ -4,7 +4,7 @@ body{
 }
 .one{
 text-align: center;
-width: 800px;
+width: 900px;
 line-height: 200px;
 border-radius: 10px;
 border: 2px solid #df0b0b;
@@ -18,7 +18,7 @@ b:hover{
     color: bisque;
 }
 
-div.two{
+.two{
 text-align:center;
 height:300px;
 width:900px;
@@ -30,8 +30,7 @@ border-radius: 10px;
 background-color: rgb(193, 241, 225);
 cursor: pointer;
 }
-
-div.three{
+.three{
     text-align: center;
     width: 500px;
     line-height: 900px;
@@ -40,6 +39,7 @@ div.three{
     box-shadow: (0px 0px 35px 0.5);
     background-color:rgb(233, 135, 8);
     cursor:pointer;
+    margin-top: 50px;
 }
 div.four{
     text-align:center;
@@ -52,8 +52,9 @@ div.four{
     border-radius: 10px;
     background-color: rgb(39, 219, 159);
     cursor: pointer;
+    margin-bottom: 50px;
 }
-div.five{
+.five{
 text-align: center;
 width: 300px;
 line-height: 300px;
@@ -64,9 +65,9 @@ position: absolute;
 border: 3px solid #7b4dca;
 box-shadow: (0px 0px 35px 0.5);
 background-color:rgba(35, 172, 11, 0.198);
-cursor:pointer;
+cursor: pointer;
 }
-div.six{
+.six{
     text-align:center;
     height:200px;
     width:700px;
