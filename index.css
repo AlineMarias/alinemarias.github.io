@@ -1,32 +1,47 @@
-body{
+body {
+    background: linear-gradient( to right,
+     #7064a0 50%, #a033ff 50%);
+}
+
+.h1 {
+font-size: 18px;
+margin: 0 5px;
+text-align: center;
+color: #fff;
+text-align: left ;
+}
+.links-titular{
+    text-align: right;
+}
+.links-titular a{ 
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
     font-size: 18px;
 }
-.inicial{
+.main {
 text-align: center;
-
-}
-.img {
-position: absolute;
-width: 500% ;
-padding: 0%;
-height: 500%;
-margin: 20px;
-}
-.suma{
-    font-size: 20px;
-}
-.ender{
-
-}
-.experi{
-
-}
-.compe{
-
-}
-.form{
-
-}
-.projetin{
-
+    }
+ .p{
+    color: #fff;
+    text-align: center ;
+    }
+.imagem-do-usuario {
+    margin-top: 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+     }
+.logos-social-media {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    }
+#bottom-port {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
