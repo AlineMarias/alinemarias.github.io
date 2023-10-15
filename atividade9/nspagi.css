@@ -1,0 +1,22 @@
+.hello {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: left;
+}
+
+.hello button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.names {
+    float: right;
+    display: block;
+    margin-top: 20px;
+}
+
+.names input {
+    display: block;
+    margin: 10px 0 ;
+}
