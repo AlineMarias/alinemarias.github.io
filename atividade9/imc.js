@@ -1,27 +1,26 @@
-function calcularIMC(peso,altura){
-    const imc = peso/(altura*altura);
-    return imc;
-  }
-function classificacaoIMC(imc) {
+function calcularIMC(){
+    const peso = document.getElementById('peso').value;
+    const result = document.getElementById('resultado');
+    const altura = document.getElementById('altura').value;
+    const classificacao = document.getElementById('classificacao');
+    var imc = peso/(altura*altura);
+
     if (imc < 18.5) {
-        return "Abaixo do Peso";
-    } else if (imc >= 18.5 && imc < 24.9) {
-        return "Peso Normal";
-    } else if (imc >= 25 && imc < 29.9) {
-        return "Sobrepeso";
-    } else if (imc >= 30 && imc < 34.9) {
-        return "Obesidade Grau I";
-    } else if (imc >= 35 && imc < 39.9) {
-        return "Obesidade Grau II";
-    } else {
-        return "Obesidade Grau III";
+         result.innerHTML = `Seu IMC é ${imc.toFixed(2)}`;
+         classificacao.innerHTML = `Abaixo do Peso`;
+    } if (imc >= 18.5 || imc <= 25){
+        result.innerHTML = `Seu IMC é ${imc.toFixed(2)}`;
+        classificacao.innerHTML = `Peso Normal `;
+    } if (imc >= 25 || imc <=30) {
+        result.innerHTML = `Seu IMC é ${imc.toFixed(2)}`;
+         classificacao.innerHTML = `Sobrepeso`;
+    } if (imc >= 30 || imc <= 35) {
+        result.innerHTML = `Seu IMC é ${imc.toFixed(2)}`;
+        classificacao.innerHTML = `Obesidade Grau I`;
+    } if (imc >= 35 || imc <= 40) {
+        result.innerHTML = `Seu IMC é ${imc.toFixed(2)}`;
+        classificacao.innerHTML = 'Obesidade Grau II';
+    } else {    
+     classificacao.innerHTML ='Obesidade Grau III';
     }
 }
-const peso = 78;
-const altura = 1.58;
-  
-const imc = calcularIMC(peso,altura);
-const classificacao = classificacaoIMC(imc); 
-  
-console.log("seu IMC é :" + imc.toFixed(2));
-console.log("classificacao:"+ classificacao);
