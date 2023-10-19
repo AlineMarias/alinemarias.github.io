@@ -1,7 +1,6 @@
 const img = [
     "robotron",
     "robotron-amarelo",
-    "robotron-azul",
     "robotron-branco", 
     "robotron-preto", 
     "robotron-rosa", 
@@ -46,4 +45,3 @@ function proximo(){
 
    mostrar(indice);
 }
-
