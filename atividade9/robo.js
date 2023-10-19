@@ -36,10 +36,8 @@ function anterior(){
 }
 
 function proximo(){
-
-    esconder(indice);
-    
-    indice = indice + 1;
+   esconder(indice);
+   indice = indice + 1;
 
    if(indice >= img.length){
      indice = 0;
