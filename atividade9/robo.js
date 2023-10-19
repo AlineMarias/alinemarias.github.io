@@ -1,6 +1,7 @@
 const img = [
     "robotron",
-    "robotron-amarelo",
+    "robotron-amarelo",
+    "robotron-azul",
     "robotron-branco", 
     "robotron-preto", 
     "robotron-rosa", 
