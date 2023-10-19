@@ -1,22 +1,20 @@
-.hello {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: left;
+h1{
+    text-align: center;
+}
+.tex{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.tex button{
+    background-color: rgb(73, 143, 175);
+    width: 100px;
 }
 
-.hello button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 10px;
-    cursor: pointer;
-}
-.names {
-    float: right;
-    display: block;
-    margin-top: 20px;
-}
-
-.names input {
-    display: block;
-    margin: 10px 0 ;
+.names{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 30px;
+    display: grid;
 }
