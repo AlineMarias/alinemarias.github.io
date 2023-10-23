@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extrato de Banco</title>
+    <title>Formulario Bancario</title>
+    <link rel="stylesheet" href="link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'">
     <link rel="stylesheet" href="extratobanco.css">
 </head>
 <body>
-   <h1>Registro de Gastos</h1>
-  <div class="hot">
-  <label for="descricao">Descrição: </label>
-  <input type="text" id="descricao">
-  <label for="valor">Valor: </label>
-  <input type="number" id="valor">
-  <button onclick="adicionarGasto()">Adicionar</button>
-</div>
+    <h1>Registro de Gastos</h1>
+    <main>
+        <div class="resume">
+            <div>
+            Entradas:R$
+            <span class="incomes">0.00</span>
+        </div>
 
-  <h2>Tabela de Gastos</h2>
-  <table id="tabelaGastos">
-    <tr>
-      <th>Descrição</th>
-      <th>Valor</th>
-    </tr>
-  </table>
-  <div id="segundapag"></div>
+        <div>
+            Saídas:R$
+            <span class="expenses">0.00</span>
+        </div>
+        
+        <div>
+            Total:R$
+            <span class="total">0.00</span>
+        </div> 
+    </div>
+        
+    </main>
+    
+    
 
-  <button onclick="calcularResumo()">Calcular Resumo</button>
     <script src="extratobanco.js"></script>
-</body> 
+</body>
 </html>
